@@ -78,6 +78,10 @@
     <string name="BiscuitName">The Biscuit Shop</string>
     <string name="BiscuitAddress">104 S Washington St #3, Starkville, MS 39759</string>
     <string name="BiscuitDescription">4.3/5 Stars on Google. . .</string>
+    <string name="Tab1">Attractions</string>
+    <string name="Tab2">Restaurants</string>
+    <string name="Tab3">Churches</string>
+    <string name="Tab4">Clothing Stores</string>
 
 
 </resources>
