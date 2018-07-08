@@ -40,7 +40,6 @@ public class CustomPlaceAdapter extends ArrayAdapter<Place> {
 
         // Find the TextView in the list_item.xml layout with the ID version_name
         TextView placeNameTextView = (TextView) listItemView.findViewById(R.id.textView1);
-        // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
         placeNameTextView.setText(currentPlace.getPlaceName());
         // Find the TextView in the list_item.xml layout with the ID version_number

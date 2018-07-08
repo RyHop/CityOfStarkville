@@ -23,11 +23,11 @@ public class ClothingStoresFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        clothingPlaces.add(new Place("JCPenney", "864 Hwy 12 W, Starkville, MS 39759", R.drawable.jc_penney, "Everyone goes here at least once."));
-        clothingPlaces.add(new Place("Bargain Hunt", " 404 MS-12, Starkville, MS 39759", R.drawable.bargain_hunt, "The cheapest I've ever seen of underwear."));
-        clothingPlaces.add(new Place("Dirt Cheap", "800 Louisville St, Starkville, MS 39759", R.drawable.dirt_cheap, "Try on expensive clothes and have a shopping spree for under a dollar."));
-        clothingPlaces.add(new Place("Academy Sports + Outdoors", "160 Hollywood Boulevard, Starkville,MS 39759", R.drawable.academy_sports, "Oddly have nice clothes and shoes."));
-        clothingPlaces.add(new Place("Rue21", "622 Highway 12 East, Starkville, MS 39759", R.drawable.rue21, "Fashion for men and women...that's rare."));
+        clothingPlaces.add(new Place(getString(R.string.JCPName), getString(R.string.JCPAddress), R.drawable.jc_penney, getString(R.string.JCPDescription)));
+        clothingPlaces.add(new Place(getString(R.string.BargainName), getString(R.string.BargainAddress), R.drawable.bargain_hunt, getString(R.string.BargainDescription)));
+        clothingPlaces.add(new Place(getString(R.string.DirtName), getString(R.string.DirtAddress), R.drawable.dirt_cheap, getString(R.string.DirtDescription)));
+        clothingPlaces.add(new Place(getString(R.string.AcademyName), getString(R.string.AcademyAddress), R.drawable.academy_sports, getString(R.string.AcademyDescription)));
+        clothingPlaces.add(new Place(getString(R.string.RueName), getString(R.string.RueAddress), R.drawable.rue21, getString(R.string.RueDescription)));
 
     }
 

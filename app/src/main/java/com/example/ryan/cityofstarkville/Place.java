@@ -20,7 +20,7 @@ public class Place {
     }
 
     public String getAddressOfPlace() {
-        return R.string.addressLabel + addressOfPlace;
+        return addressOfPlace;
     }
 
     public String getDescriptionOfPlace() {

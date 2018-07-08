@@ -23,14 +23,14 @@ public class RestaurantsFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        restaurantPlaces.add(new Place("Moe's BBQ", "110 E Main St, Starkville, MS 39759", R.drawable.moe_bbq, "Looking for wings? They have among the best!"));
-        restaurantPlaces.add(new Place("Insomnia Cookies", "87 Mill Street, 3, Starkville, MS 39759", R.drawable.insomnia_cookies, "The BEST cookies in Starkville at 1 AM"));
-        restaurantPlaces.add(new Place("Baskin-Robbins", "868 MS-12, Starkville, MS 39759", R.drawable.baskin_robbins, "That Ice Cream parlor that no one tries, but its secretly the best one."));
-        restaurantPlaces.add(new Place("Harveys", "406 Hwy 12 E, Starkville, MS 39759", R.drawable.harveys, "Its expensive but you like it too much...and everyone likes it too much"));
-        restaurantPlaces.add(new Place("Stromboli's", "408 University Dr, Starkville, MS 39759", R.drawable.strombolis, "Pizza's lovers prayer of a sacred pizza shop"));
-        restaurantPlaces.add(new Place("Nine-Twentynine Coffee Bar", "106 E Main St, Starkville, MS 39759", R.drawable.ninetonine, "Yo, can coffee be this good?"));
-        restaurantPlaces.add(new Place("Bin 612", "612 University Dr #3, Starkville, MS 39759", R.drawable.bin162, "Go during the day if you want good food. Go during the night if you want social people"));
-        restaurantPlaces.add(new Place("The Biscuit Shop", "104 S Washington St #3, Starkville, MS 39759", R.drawable.biscuit_shop, "4.3/5 Stars on Google..."));
+        restaurantPlaces.add(new Place(getString(R.string.MoeName), getString(R.string.MoeAddress), R.drawable.moe_bbq, getString(R.string.MoeDescription)));
+        restaurantPlaces.add(new Place(getString(R.string.InsomniaName), getString(R.string.InsomniaAddress), R.drawable.insomnia_cookies, getString(R.string.INsomniaDescription)));
+        restaurantPlaces.add(new Place(getString(R.string.BaskinName), getString(R.string.BaskinAddress), R.drawable.baskin_robbins, getString(R.string.BaskinDescription)));
+        restaurantPlaces.add(new Place(getString(R.string.HarveysName), getString(R.string.HarveysAddress), R.drawable.harveys, getString(R.string.HarveysDescription)));
+        restaurantPlaces.add(new Place(getString(R.string.StromName), getString(R.string.StromAddress), R.drawable.strombolis, getString(R.string.StromDescription)));
+        restaurantPlaces.add(new Place(getString(R.string.NineName), getString(R.string.NineAddress), R.drawable.ninetonine, getString(R.string.NineDescription)));
+        restaurantPlaces.add(new Place(getString(R.string.BinName), getString(R.string.BinAddress), R.drawable.bin162, getString(R.string.BinDescription)));
+        restaurantPlaces.add(new Place(getString(R.string.BiscuitName), getString(R.string.BiscuitAddress), R.drawable.biscuit_shop, getString(R.string.BiscuitDescription)));
 
     }
 
